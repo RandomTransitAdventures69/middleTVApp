@@ -1,7 +1,6 @@
-# MiddleTV (Python rewrite — phase 1)
+# MiddleTV (app)
 
-A fullscreen, remote-friendly TV launcher, built with PySide6 (Qt for
-Python). Same design as the first attempt, new language.
+Want the simplicity of middleTV but don't want to install an OS? this is the underlying app (middleTV is a distro pending based TV OS)  of the OS!
 
 ## Look and feel
 
@@ -83,5 +82,3 @@ page behaves otherwise.
 - Arrow keys — move the selection
 - Enter / Return / Space — activate what's selected
 - Esc — go back, always, from anywhere
-# middleTV-app-
-# middleTV-app-
