@@ -2,6 +2,9 @@
 
 Want the simplicity of middleTV but don't want to install an OS? this is the underlying app (middleTV is a distro pending based TV OS)  of the OS!
 
+
+middleTV: https://github.com/RandomTransitAdventures69/middleTV/
+
 ## Look and feel
 
 Dark equipment-panel aesthetic — 80s/90s pro-audio gear and an old car
