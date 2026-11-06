@@ -1,0 +1,69 @@
+{
+  "apps": [
+    {
+      "id": "jellyfin",
+      "name": "Jellyfin",
+      "kind": "url",
+      "screen": "",
+      "url": "http://localhost:8096"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "kind": "url",
+      "screen": "",
+      "url": "https://www.youtube.com"
+    },
+    {
+      "id": "flight_tracker",
+      "name": "Flight Tracker",
+      "kind": "url",
+      "screen": "",
+      "url": "https://www.flightradar24.com"
+    },
+    {
+      "id": "clock",
+      "name": "Clock",
+      "kind": "native",
+      "screen": "clock",
+      "url": ""
+    },
+    {
+      "id": "files",
+      "name": "Files",
+      "kind": "native",
+      "screen": "files",
+      "url": ""
+    },
+    {
+      "id": "settings",
+      "name": "Settings",
+      "kind": "native",
+      "screen": "settings",
+      "url": ""
+    },
+    {
+      "id": "about",
+      "name": "About",
+      "kind": "native",
+      "screen": "about",
+      "url": ""
+    }
+  ],
+  "profiles": [
+    {
+      "id": "default",
+      "name": "Default",
+      "color": "#4ECDC4"
+    }
+  ],
+  "active_profile": "default",
+  "media_server": {
+    "url": "",
+    "kind": "unknown",
+    "name": ""
+  },
+  "notifications_enabled": true,
+  "youtube_api_key": "",
+  "ui_theme": "modern"
+}
