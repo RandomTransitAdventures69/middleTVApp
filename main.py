@@ -17,7 +17,11 @@ sys.excepthook = _excepthook
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QApplication
 
+<<<<<<< HEAD
 # QtWebEngine (used by the embedded Jellyfin/Flight Tracker screens)
+=======
+# QtWebEngine (used by the embedded Jellyfin/YouTube/Flight Tracker screens)
+>>>>>>> fdba063959e149a773f778b40114d3599547f23e
 # has to be imported, and this attribute set, before QApplication is
 # constructed -- doing it later, even on first use of a web screen, makes
 # Chromium's startup hang instead of working.
@@ -34,7 +38,10 @@ def main():
     cfg = config.load(config_path)
 
     app = QApplication(sys.argv)
+<<<<<<< HEAD
     theme.apply_theme(cfg.ui_theme)
+=======
+>>>>>>> fdba063959e149a773f778b40114d3599547f23e
     app.setStyleSheet(theme.STYLESHEET)
 
     shell = Shell(cfg)

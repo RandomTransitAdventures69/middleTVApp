@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 # MiddleTV (Python rewrite — phase 1)
 
 A fullscreen, remote-friendly TV launcher, built with PySide6 (Qt for
 Python). Same design as the first attempt, new language.
+=======
+# MiddleTV (app)
+
+Want the simplicity of middleTV but don't want to install an OS? this is the underlying app (middleTV is a distro pending based TV OS)  of the OS!
+
+
+middleTV: https://github.com/RandomTransitAdventures69/middleTV/
+>>>>>>> fdba063959e149a773f778b40114d3599547f23e
 
 ## Look and feel
 
@@ -35,6 +44,7 @@ something I'd expect on your actual machine.
   keeps its own saved cookies/storage automatically, same as a real browser
 - Settings, Files, About show a placeholder for now, same as before
 
+<<<<<<< HEAD
 - Settings: media server module auto-detects whether a configured URL is
   Jellyfin or Plex (standard-library HTTP calls, no new dependency), and
   the home screen's media tile relabels itself accordingly; a
@@ -43,6 +53,11 @@ something I'd expect on your actual machine.
 
 Not built yet: system updates/installs (with elevation) in Settings,
 startup video/animation, Files, About, and the rest of the new apps.
+=======
+Not built yet: Settings itself (updates/installs, media server config,
+startup video/animation, notifications, and whatever else lands there),
+Files, About.
+>>>>>>> fdba063959e149a773f778b40114d3599547f23e
 
 ## Setup
 
